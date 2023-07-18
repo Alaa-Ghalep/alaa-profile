@@ -1,0 +1,438 @@
+body{font-style: normal;}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: 'Saira Extra Condensed', serif; */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #343a40;
+    /* font-family:sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#myname{
+    font-family: 'Saira Extra Condensed', serif;
+}
+/*==================================================
+                    NAV-BAR
+====================================================*/
+#sideNav{
+    background-color: #820000;
+
+}
+  #sideNav .nav-link {
+      /* font-weight: 600; */
+      text-transform: uppercase;
+      color: #fff;
+  }
+
+  @media (min-width: 992px) {
+      #sideNav {
+          text-align: center;
+          position: fixed;
+          top: 0;
+          left: 0;
+          display: flex;
+          flex-direction: column;
+          width: 17rem;
+          height: 100vh;
+      }
+      #sideNav .navbar-brand {
+          display: flex;
+          margin: 1rem 1rem 0;
+          padding: 0.5rem;
+          
+      }
+      #sideNav .navbar-brand .img-profile {
+          max-width: 10rem;
+          max-height: 10rem;
+          
+          border: 0.5rem solid rgba(255, 255, 255, 0.2);
+      }
+      #sideNav .navbar-collapse {
+          display: flex;
+          align-items: flex-start;
+          flex-grow: 0;
+          width: 100%;
+          margin-bottom: auto;
+      }
+      #sideNav .navbar-collapse .navbar-nav {
+          flex-direction: column;
+          width: 100%;
+      }
+      #sideNav .nav-item {
+          display: block;
+      }
+      #sideNav   .nav-link {
+          display: block;
+      }
+  }
+
+/*About Start*/
+.parent-about{
+    background-image: linear-gradient(#dbd9d9,#ffff 73%,transparent), url('../Images/aboutbg.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 12rem;
+  
+    
+}
+/*About End
+
+/*Experience Start*/
+.parent-exp{margin-bottom: 12rem;}
+
+/*Experience End*/
+
+  /*==================================================*/
+/*Skills alaa*/
+.parent-skills{margin-bottom: 12rem;}
+#MP{width: 99%;}
+ #Hcss{width: 99%;}
+#MQ{width: 98%;}
+#Boot{width: 98%;}
+#React{width: 95%;}
+#Javasc{width: 94%;}
+#photo{width: 92%;}
+#C{width: 85%;}
+#WPF{width: 80%;}
+#ASP{width: 77%;}
+#FLUTTER{width: 77%;}
+#JSon{width: 70%;}
+
+
+
+.skillTitle {
+    color: #343a40;
+    font-weight:bold;
+    font-size:1rem;
+}
+
+ .text-Color {
+    /*color: #2196f3 !important;*/
+    color: #820000 !important;
+}
+
+
+/* section globals */
+.overlay {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.hasbg {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-weight: 300 !important;
+   
+}
+/* skillbar start */
+.skillset {
+    padding-top: 50px;
+}
+
+    .skillset .skillbar {
+        /*background-color: rgba(255, 255, 255, 0.15);*/
+        /*background-color: #717171;*/
+        /*background-color: #343a40;*/
+        background-color: #cfcdcd;
+        font-size: 14px;
+        margin-bottom: 50px;
+        position: relative;
+        width: 100%;
+    }
+
+    .skillset .count-bar {
+        background-color: #820000;
+        height: 10px;
+        position: relative;
+        width: 100%;
+        width: 0;
+    }
+
+    .skillset .title {
+        left: 0;
+        line-height: 25px;
+        position: absolute;
+        text-transform: uppercase;
+        top: -25px;
+    }
+
+    .skillset .count-bar .count {
+        color: #ffffff;
+        font-size: 13px;
+        position: absolute;
+        right: -20px;
+        text-align: center;
+        top: -28px;
+    }
+
+        .skillset .count-bar .count span {
+            /*background-color: #ef3f3d;*/
+            background-color: #820000;
+            border-radius: 20px;
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            padding: 0 6px;
+            position: relative;
+        }
+
+            .skillset .count-bar .count span:after {
+                border-left: 4px solid transparent;
+                border-right: 4px solid transparent;
+                content: "";
+                left: 50%;
+                margin-left: -4px;
+                position: absolute;
+                top: 20px;
+            }
+
+            .skillset .count-bar .count span:after {
+                border-top: 4px solid #820000;
+            }
+.skillsimg{
+    border-radius:10px 10px 10px 10px;
+    transition: 1s;
+
+
+}.skillsimg:hover{
+    border-radius:10px 10px 10px 10px;
+    /* box-shadow:2px 2px 3px 2px #820000; */
+    opacity: 0.8;
+
+}
+.spanskills {
+    border-bottom: inset;
+    border-color: #343a40;
+    border-width: 0.33rem;
+    padding-bottom:0.4rem;
+}
+
+/**/
+#skills {
+    /* background-image: url("../Images/bg-stats.jpg"); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.skill-cover {
+    background-color: rgba(31, 31, 31, 0.68); 
+}
+
+.skill-cover h3{
+  font-family: "hind", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.skill-item {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background: rgba(144, 144, 144, 0.78);
+}
+
+.skill-item i {
+    color: #2196f3;
+}
+
+.skill-item h2 {
+    color: #fff;
+    font-size: "hind", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.skill-item p {
+    color: #fff;
+    font-family: "hind", sans-serif;
+    /*text-transform: uppercase;*/
+    font-weight: 300;
+    margin-top: 0;
+}
+/* skillbar end */
+/*==================================================*/
+
+/*Projects Start*/
+.mySwiper{margin-top: 4rem;margin-bottom: 5rem;}
+.Slide{
+
+/* background: linear-gradient(180deg, rgba(108,77,125,0.5520540730337078) 0%, rgba(73,29,77,0.5183462078651686) 0%); */
+  
+    /* height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20%; */
+    
+}
+.swiper-pagination-bullet-active {
+    background-color: #820000 !important;
+  
+
+}
+ .swiper-pagination-bullet {
+    background-color: #820000 !important;
+}
+
+.swiper-navigation {
+ color: #820000 !important;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+ color: #820000 !important;
+ right: 20px;
+
+}
+/*Contact Start*/
+.parent-contact{margin-bottom: 12rem;}
+/*fOOTER sTART*/
+
+.parent-footer{
+  
+    background: rgb(130,0,0);
+    background: linear-gradient(180deg, rgba(130,0,0,0.147559691011236) 100%, rgba(250,116,26,0) 100%);
+    background: rgb(185,178,178);
+background: linear-gradient(180deg, rgba(185,178,178,0.147559691011236) 100%, rgba(250,116,26,0) 100%);
+}
+footer .social-btn {
+    width: 40px;
+    height: 40px;
+    background: #820000;
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+    border: 1px dotted #fff;
+}
+
+    footer .social-btn i {       
+        transition: 0.2s linear;
+    }
+
+    footer .social-btn:hover i {
+        transform: scale(1.3);
+        color: #820000;
+    }
+
+    footer .social-btn::before {
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        background: #ffffff;
+        transform: rotate(45deg);
+        left: -110%;
+        top: 90%;
+    }
+
+    footer .social-btn:hover::before {
+        animation: effect 0.6s 1;
+        top: -10%;
+        left: -10%;
+    }
+
+footer p a {
+    color: #820000;
+}
+/*Footer End*/
+
+
+/*Test Style for img swiper*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+  height: 100%;
+}
+
+
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  z-index: 1;
+}
+
+
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
