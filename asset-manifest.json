@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/alaa-profile/static/css/main.94e62f03.css",
+    "main.js": "/alaa-profile/static/js/main.1436ee6d.js",
+    "static/js/787.c8e4471e.chunk.js": "/alaa-profile/static/js/787.c8e4471e.chunk.js",
+    "static/media/skillsimg1.jpg": "/alaa-profile/static/media/skillsimg1.32e947a9de365e35408d.jpg",
+    "static/media/Project3.png": "/alaa-profile/static/media/Project3.96e795061eb7948d3b6f.png",
+    "static/media/reactappimg.png": "/alaa-profile/static/media/reactappimg.c8fa77bf246a2a8ce144.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/alaa-profile/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Project2.png": "/alaa-profile/static/media/Project2.09d6f40578ba34f87287.png",
+    "static/media/Project1.png": "/alaa-profile/static/media/Project1.42f125c1c6b1c8a1db05.png",
+    "static/media/fontawesome-webfont.eot": "/alaa-profile/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/alaa-profile/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/alaaProfile.jpg": "/alaa-profile/static/media/alaaProfile.44c11097d4d1c1f15ee2.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/alaa-profile/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/food.jpg": "/alaa-profile/static/media/food.7a6c03e1a0c28274493e.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/alaa-profile/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/skillsimg2.jpg": "/alaa-profile/static/media/skillsimg2.81efd308524aa063f94a.jpg",
+    "index.html": "/alaa-profile/index.html",
+    "main.94e62f03.css.map": "/alaa-profile/static/css/main.94e62f03.css.map",
+    "main.1436ee6d.js.map": "/alaa-profile/static/js/main.1436ee6d.js.map",
+    "787.c8e4471e.chunk.js.map": "/alaa-profile/static/js/787.c8e4471e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94e62f03.css",
+    "static/js/main.1436ee6d.js"
+  ]
+}
